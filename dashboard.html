@@ -1,0 +1,991 @@
+<!DOCTYPE html>
+<html dir="rtl">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>تنظیمات | ایوان پرداخت</title>
+    <link rel="icon" href="images/favicon.svg" type="image/svg+xml" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/select2.min.css" rel="stylesheet" />
+    <link href="css/swiper-bundle.min.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="css/dashbord.css" rel="stylesheet" />
+  </head>
+
+  <body class="body_panel">
+    <header class="head_panel">
+      <div class="container-fluid">
+          <div class="row justify-content-between">
+              <div class="col-auto">
+                  <div class="r_head_panel">
+                      <div class="btn_menu_mob_p d-flex d-lg-none" data-bs-toggle="offcanvas" data-bs-target="#menu_mob" aria-controls="menu_mob">
+                          <svg width="43" height="41" viewBox="0 0 43 41" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <rect x="0.547852" y="0.5" width="41" height="40" rx="8.5" fill="white"/>
+                              <rect x="0.547852" y="0.5" width="41" height="40" rx="8.5" stroke="#EAEAEA"/>
+                              <path d="M14.0479 15.5H28.0479" stroke="#33363F" stroke-width="2" stroke-linecap="round"/>
+                              <path d="M14.0479 20.5H28.0479" stroke="#33363F" stroke-width="2" stroke-linecap="round"/>
+                              <path d="M14.0479 25.5H28.0479" stroke="#33363F" stroke-width="2" stroke-linecap="round"/>
+                          </svg>                            
+                      </div>
+                      <div class="offcanvas offcanvas-start" tabindex="-1" id="menu_mob" aria-labelledby="menu_mobLabel">
+                          <div class="offcanvas-header">
+                              <h5 class="offcanvas-title" id="menu_mobLabel">منو موبایل</h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                          </div>
+                          <div class="offcanvas-body">
+                              <div class="list_m_s_p">
+                                  <ul>
+                                      <li><a href="#"><img src="images/menu/home.svg" alt="home" width="20" height="20" class="img-fluid" /> <span class="nav-text">داشبورد</span></a></li>
+                                      <li><a href="#"><img src="images/menu/wallet.svg" alt="wallet" width="20" height="20" class="img-fluid" /> <span class="nav-text">کیف پول من</span></a></li>
+                                      <li><a href="#"><img src="images/menu/market.svg" alt="market" width="20" height="20" class="img-fluid" /> <span class="nav-text">بازار</span></a></li>
+                                      <li><a href="#"><img src="images/menu/trade.svg" alt="trade" width="20" height="20" class="img-fluid" /> <span class="nav-text">معامله سریع</span></a></li>
+                                      <li><a href="#"><img src="images/menu/premium.svg" alt="premium" width="20" height="20" class="img-fluid" /> <span class="nav-text">خدمات ویژه</span></a></li>
+                                      <li><a href="#"><img src="images/menu/clock.svg" alt="orders" width="20" height="20" class="img-fluid" /> <span class="nav-text">سفارش های من</span></a></li>
+                                  </ul>
+                              </div>
+                              <div class="line_menu"></div>
+                              <div class="list_m_s_p">
+                                  <ul>
+                                      <li><a href="#"><img src="images/menu/referral.svg" alt="referral" width="20" height="20" class="img-fluid" /> <span class="nav-text">دعوت از دوستان</span></a></li>
+                                      <li><a href="#"><img src="images/menu/support.svg" alt="support" width="20" height="20" class="img-fluid" /> <span class="nav-text">پشتیبانی</span></a></li>
+                                      <li><a href="#"><img src="images/menu/logout.svg" alt="logout" width="20" height="20" class="img-fluid" /> <span class="nav-text">خروج</span></a></li>
+                                  </ul>
+                              </div>
+                              <div class="text-center mt-3">
+                                  <img src="images/menu/banner.png" alt="پشتیبانی 24 ساعته" width="188" height="220" class="img-fluid" />
+                              </div>
+                          </div>
+                      </div>
+                      <div class="logo_h_p">
+                          <img src="images/logo_panel.svg" alt="ایوان پرداخت" width="52" height="52" class="img-fluid" />
+                      </div>
+                      <nav class="menu_top_panel d-none d-lg-flex">
+                          <div class="menu_srv">
+                              <p class="tit_menu_t_p">خدمات ایوان پرداخت <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                  <path d="M15.9404 5.99976L9.94043 11.9998L15.9404 17.9998" stroke="#33363F" stroke-width="2"/>
+                                  </svg>
+                              </p>
+                              <div class="mega_all_srv">
+                                  <div class="mega_contain">
+                                      <ul>
+                                          <li>
+                                              <div class="bx_mega_a_s">
+                                                  <div>
+                                                      <img src="images/menu/mega/ivan.svg" width="55" height="55" class="img-fluid" />
+                                                      <div>
+                                                          <h3><a class="stretched-link" href="#">صرافی ارزدیجیتال</a></h3>
+                                                          <p>خدمات خرید و فروش ارزدیجیتال به صورت تخصصی</p>
+                                                      </div>
+                                                  </div>
+                                                  <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                      <path d="M15 6.5L9 12.5L15 18.5" stroke="#222222"/>
+                                                  </svg>                                            
+                                              </div>
+                                          </li>
+                                          <li>
+                                              <div class="bx_mega_a_s">
+                                                  <div>
+                                                      <img src="images/menu/mega/bank.svg" width="55" height="55" class="img-fluid" />
+                                                      <div>
+                                                          <h3><a class="stretched-link" href="#">خدمات بانکی و روزمره</a></h3>
+                                                          <p>خرید شارژ٬ پرداخت قبض٬ کارت به کارت و...</p>
+                                                      </div>
+                                                  </div>
+                                                  <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                      <path d="M15 6.5L9 12.5L15 18.5" stroke="#222222"/>
+                                                  </svg>                                            
+                                              </div>
+                                          </li>
+                                          <li>
+                                              <div class="bx_mega_a_s">
+                                                  <div>
+                                                      <img src="images/menu/mega/pay_d.svg" width="55" height="55" class="img-fluid" />
+                                                      <div>
+                                                          <h3><a class="stretched-link" href="#">پرداخت دلاری و بین‌المللی</a></h3>
+                                                          <p>خرید از سایت های خارجی٬ افتتاح حساب بین‌المللی</p>
+                                                      </div>
+                                                  </div>
+                                                  <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                      <path d="M15 6.5L9 12.5L15 18.5" stroke="#222222"/>
+                                                  </svg>                                            
+                                              </div>
+                                          </li>
+                                          <li>
+                                              <div class="bx_mega_a_s">
+                                                  <div>
+                                                      <img src="images/menu/mega/payment.svg" width="55" height="55" class="img-fluid" />
+                                                      <div>
+                                                          <h3><a class="stretched-link" href="#">پرداخت یار</a></h3>
+                                                          <p>درگاه پرداخت اختصاصی٬ تسویه حساب٬ API درگاه</p>
+                                                      </div>
+                                                  </div>
+                                                  <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                      <path d="M15 6.5L9 12.5L15 18.5" stroke="#222222"/>
+                                                  </svg>                                            
+                                              </div>
+                                          </li>
+                                      </ul>
+                                      <div class="f_m_a_s">
+                                          <p>وبسایت ایوان تجارت <span class="dot">.</span> <span>ایوان تجارت بـــــرخط</span></p>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                          <ul>
+                              <li>
+                                  <a href="#">بازار</a>
+                              </li>
+                              <li>
+                                  <a href="#">سفارش سریع</a>
+                              </li>
+                              <li>
+                                  <a href="#">دعوت از دوستان</a>
+                              </li>
+                              <li>
+                                  <a href="#">سوالی دارید؟</a>
+                              </li>
+                          </ul>
+                      </nav>
+                  </div>
+              </div>
+              <div class="col-auto">
+                  <div class="l_head_panel">
+                      <div class="notif_ivan">
+                          <a href="#" class="btn btn-outline-primary"><img src="images/notif.svg" alt="notification" width="24" height="24" class="img-fluid" /></a>
+                          <div class="mega_notif_ivan">
+                              <div class="mega_contain">
+                                  <div class="h_mega_notif">
+                                      <p>اعلانات</p>
+                                      <a href="#">نمایش همه</a>
+                                  </div>
+                                  <ul>
+                                      <li>
+                                          <div class="tit">واریز موفق 998,800 ریال</div>
+                                          <p>واریز با موفقیت انجام شد و موجودی حساب شما افزایش یافت.</p>
+                                          <span>1403/05/10 - 16:08</span>
+                                      </li>
+                                      <li>
+                                          <div class="tit">واریز موفق 998,800 ریال</div>
+                                          <p>واریز با موفقیت انجام شد و موجودی حساب شما افزایش یافت.</p>
+                                          <span>1403/05/10 - 16:08</span>
+                                      </li>
+                                      <li>
+                                          <div class="tit">واریز موفق 998,800 ریال</div>
+                                          <p>واریز با موفقیت انجام شد و موجودی حساب شما افزایش یافت.</p>
+                                          <span>1403/05/10 - 16:08</span>
+                                      </li>
+                                  </ul>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="app_ivan">
+                          <a href="#" class="btn btn-outline-primary d-none d-lg-flex"><img src="images/mob.svg" alt="app" width="24" height="24" class="img-fluid" /></a>
+                          <div class="mega_app_ivan">
+                              <div class="mega_contain">
+                                  <p>دانلود مستقیم اپلیکیشن</p>
+                                  <div class="qr_code">
+                                      <img src="images/menu/mega/qr.svg" width="200" height="200" class="img-fluid" />
+                                  </div>
+                                  <a href="#" class="btn btn-dark">دانلود نسخه ios</a>
+                                  <a href="#" class="btn btn-primary">دانلود نسخه اندروید</a>
+                                  <a href="#" class="btn btn-outline-primary">دانلود نسخه تحت وب</a>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="profile_mini_mob d-flex d-lg-none">
+                          <img src="images/profile.png" width="41" height="41" class="img-fluid" />
+                          <div class="mega_profile_ivan">
+                              <div class="mega_contain">
+                                  <div class="h_m_p_i">
+                                      <img src="images/profile.png" width="41" height="41" class="img-fluid" />
+                                      <p>علی عبدی</p>
+                                      <span>۰۹۰۲****۲۱۴۸</span>
+                                  </div>
+                                  <div class="lvl_p_mega">
+                                      <div>
+                                          <p>سطح کاربری:</p>
+                                          <div class="lvl_mega">سطح کاربری: <span class="lvl_user bronze"><img src="images/bronze.svg" width="14" height="16" class="img-fluid" /> برنزی</span></div>
+                                      </div>
+                                      <a href="#" class="btn btn-outline-primary">تکمیل احراز هویت</a>
+                                  </div>
+                                  <ul>
+                                      <li>
+                                          <a href="#">
+                                              <img src="images/menu/mega/home.svg" width="24" height="24" class="img-fluid" />
+                                              داشبورد
+                                          </a>
+                                      </li>
+                                      <li>
+                                          <a href="#">
+                                              <img src="images/menu/mega/card.svg" width="24" height="24" class="img-fluid" />
+                                              کارت های بانکی
+                                          </a>
+                                      </li>
+                                      <li>
+                                          <a href="#">
+                                              <img src="images/menu/mega/shield.svg" width="24" height="24" class="img-fluid" />
+                                              امنیت اکانت
+                                          </a>
+                                      </li>
+                                      <li>
+                                          <a href="#">
+                                              <img src="images/menu/mega/message.svg" width="24" height="24" class="img-fluid" />
+                                              تیکت های من
+                                          </a>
+                                      </li>
+                                      <li class="logout_mega">
+                                          <a href="#">
+                                              <img src="images/menu/mega/logout.svg" width="24" height="24" class="img-fluid" />
+                                              خروج از حساب کاربری
+                                          </a>
+                                      </li>
+                                  </ul>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="profile_mini d-none d-lg-flex">
+                          <div class="dtl_user">
+                              <img src="images/profile.png" width="41" height="41" class="img-fluid" />
+                              <div>
+                                  <h4>علی عبدی</h4>
+                                  <p>سطح کاربری: <span class="lvl_user bronze"><img src="images/bronze.svg" width="14" height="16" class="img-fluid" /> برنزی</span></p>
+                              </div>
+                          </div>
+                          <a href="#">
+                              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path d="M15 5.99976L9 11.9998L15 17.9998" stroke="#33363F" stroke-width="2"/>
+                              </svg>
+                          </a>
+                          <div class="mega_profile_ivan">
+                              <div class="mega_contain">
+                                  <div class="h_m_p_i">
+                                      <img src="images/profile.png" width="41" height="41" class="img-fluid" />
+                                      <p>علی عبدی</p>
+                                      <span>۰۹۰۲****۲۱۴۸</span>
+                                  </div>
+                                  <div class="lvl_p_mega">
+                                      <div>
+                                          <p>سطح کاربری:</p>
+                                          <div class="lvl_mega">سطح کاربری: <span class="lvl_user bronze"><img src="images/bronze.svg" width="14" height="16" class="img-fluid" /> برنزی</span></div>
+                                      </div>
+                                      <a href="#" class="btn btn-outline-primary">تکمیل احراز هویت</a>
+                                  </div>
+                                  <ul>
+                                      <li>
+                                          <a href="#">
+                                              <img src="images/menu/mega/home.svg" width="24" height="24" class="img-fluid" />
+                                              داشبورد
+                                          </a>
+                                      </li>
+                                      <li>
+                                          <a href="#">
+                                              <img src="images/menu/mega/card.svg" width="24" height="24" class="img-fluid" />
+                                              کارت های بانکی
+                                          </a>
+                                      </li>
+                                      <li>
+                                          <a href="#">
+                                              <img src="images/menu/mega/shield.svg" width="24" height="24" class="img-fluid" />
+                                              امنیت اکانت
+                                          </a>
+                                      </li>
+                                      <li>
+                                          <a href="#">
+                                              <img src="images/menu/mega/message.svg" width="24" height="24" class="img-fluid" />
+                                              تیکت های من
+                                          </a>
+                                      </li>
+                                      <li class="logout_mega">
+                                          <a href="#">
+                                              <img src="images/menu/mega/logout.svg" width="24" height="24" class="img-fluid" />
+                                              خروج از حساب کاربری
+                                          </a>
+                                      </li>
+                                  </ul>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="btn_close_side"><img src="images/menu/erd.svg" alt="close menu" width="24" height="24" class="img-fluid" /></div>
+  </header>
+
+    <main class="main_panel">
+      <aside class="menu_side_panel">
+        <div class="list_m_s_p">
+          <ul>
+            <li>
+              <a href="#"
+                ><img
+                  src="images/menu/home.svg"
+                  alt="home"
+                  width="20"
+                  height="20"
+                  class="img-fluid"
+                />
+                <span class="nav-text">داشبورد</span></a
+              >
+            </li>
+            <li>
+              <a href="#"
+                ><img
+                  src="images/menu/wallet.svg"
+                  alt="wallet"
+                  width="20"
+                  height="20"
+                  class="img-fluid"
+                />
+                <span class="nav-text">کیف پول من</span></a
+              >
+            </li>
+            <li>
+              <a href="#"
+                ><img
+                  src="images/menu/market.svg"
+                  alt="market"
+                  width="20"
+                  height="20"
+                  class="img-fluid"
+                />
+                <span class="nav-text">بازار</span></a
+              >
+            </li>
+            <li>
+              <a href="#"
+                ><img
+                  src="images/menu/trade.svg"
+                  alt="trade"
+                  width="20"
+                  height="20"
+                  class="img-fluid"
+                />
+                <span class="nav-text">معامله سریع</span></a
+              >
+            </li>
+            <li>
+              <a href="#"
+                ><img
+                  src="images/menu/premium.svg"
+                  alt="premium"
+                  width="20"
+                  height="20"
+                  class="img-fluid"
+                />
+                <span class="nav-text">خدمات ویژه</span></a
+              >
+            </li>
+            <li>
+              <a href="#"
+                ><img
+                  src="images/menu/clock.svg"
+                  alt="orders"
+                  width="20"
+                  height="20"
+                  class="img-fluid"
+                />
+                <span class="nav-text">سفارش های من</span></a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="line_menu"></div>
+        <div class="list_m_s_p">
+          <ul>
+            <li>
+              <a href="#"
+                ><img
+                  src="images/menu/referral.svg"
+                  alt="referral"
+                  width="20"
+                  height="20"
+                  class="img-fluid"
+                />
+                <span class="nav-text">دعوت از دوستان</span></a
+              >
+            </li>
+            <li>
+              <a href="#"
+                ><img
+                  src="images/menu/support.svg"
+                  alt="support"
+                  width="20"
+                  height="20"
+                  class="img-fluid"
+                />
+                <span class="nav-text">پشتیبانی</span></a
+              >
+            </li>
+            <li>
+              <a href="#"
+                ><img
+                  src="images/menu/logout.svg"
+                  alt="logout"
+                  width="20"
+                  height="20"
+                  class="img-fluid"
+                />
+                <span class="nav-text">خروج</span></a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="text-center mt-3">
+          <img
+            src="images/menu/banner.png"
+            alt="پشتیبانی 24 ساعته"
+            width="188"
+            height="220"
+            class="img-fluid"
+          />
+        </div>
+      </aside>
+      <!-- first -->
+      <div
+        class="mb-2 container d-flex flex-sm-row flex-column justify-content-center align-items-center gap-2"
+      >
+        <a href="/">
+          <img src="images/dashbord/eftetah-org-1.svg" class="w-100" alt="" />
+        </a>
+        <a href="/">
+          <img src="images/dashbord/eftetah-org-2.svg" class="w-100" alt="" />
+        </a>
+      </div>
+      <!-- second -->
+      <div class="second container d-sm-flex d-none justify-content-center">
+        <a href="/"
+          ><img class="w-100" src="images/dashbord/eftetah-org-3.svg" alt=""
+        /></a>
+      </div>
+      <!-- third -->
+      <div class="mb-3 container d-sm-none d-flex justify-content-center">
+        <a href="/"
+          ><img class="w-100" src="images/dashbord/eftetah-org-3-3.svg" alt=""
+        /></a>
+      </div>
+
+      <!-- blog-swiper-sh -1 -->
+      <section class="blog_home">
+        <div class="container">
+          <div class="row justify-content-between">
+            <div class="col-auto">
+              <h2 class="container mb-4 account">انواع اکانت و سرویس خارجی</h2>
+            </div>
+            <div class="col-auto d-block">
+              <div class="d-flex align-items-center">
+                <div class="nav_btns_slides">
+                  <button class="swiper-button-nextt">
+                    <svg
+                      width="32"
+                      height="33"
+                      viewBox="0 0 32 33"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M26.6666 16.5L27.6094 15.5572L28.5522 16.5L27.6094 17.4428L26.6666 16.5ZM6.66663 17.8333C5.93025 17.8333 5.33329 17.2364 5.33329 16.5C5.33329 15.7636 5.93025 15.1667 6.66663 15.1667V17.8333ZM19.6094 7.55719L27.6094 15.5572L25.7238 17.4428L17.7238 9.44281L19.6094 7.55719ZM27.6094 17.4428L19.6094 25.4428L17.7238 23.5572L25.7238 15.5572L27.6094 17.4428ZM26.6666 17.8333H6.66663V15.1667H26.6666V17.8333Z"
+                        fill="#33363F"
+                      />
+                    </svg>
+                  </button>
+                  <button class="swiper-button-prevv">
+                    <svg
+                      width="33"
+                      height="33"
+                      viewBox="0 0 33 33"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M5.5 16.5L4.52773 15.5277L3.55546 16.5L4.52773 17.4723L5.5 16.5ZM26.125 17.875C26.8844 17.875 27.5 17.2594 27.5 16.5C27.5 15.7406 26.8844 15.125 26.125 15.125V17.875ZM12.7777 7.27773L4.52773 15.5277L6.47227 17.4723L14.7223 9.22227L12.7777 7.27773ZM4.52773 17.4723L12.7777 25.7223L14.7223 23.7777L6.47227 15.5277L4.52773 17.4723ZM5.5 17.875H26.125V15.125H5.5V17.875Z"
+                        fill="#33363F"
+                      />
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="sec_slide_blog_home">
+          <div class="container">
+            <div class="container_slider">
+              <div class="swiper swiper_blog_home">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <div
+                      class="w-slider rounded-4 py-3 border d-flex flex-column justify-content-center align-items-center"
+                    >
+                      <img
+                        class="w-fit"
+                        src="images/dashbord/account-1.svg"
+                        alt=""
+                      />
+                      <p>اکانت ادوبی</p>
+                    </div>
+                    <div class="d-flex justify-content-center">
+                      <img
+                        class="flash-slider w-fit"
+                        src="images/dashbord/flesh-slider.svg"
+                        alt=""
+                      />
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div
+                      class="w-slider rounded-4 py-3 border d-flex flex-column justify-content-center align-items-center"
+                    >
+                      <img
+                        class="w-fit"
+                        src="images/dashbord/account-2.svg"
+                        alt=""
+                      />
+                      <p>اکانت ادوبی</p>
+                    </div>
+                    <div class="d-flex justify-content-center">
+                      <img
+                        class="flash-slider w-fit"
+                        src="images/dashbord/flesh-slider.svg"
+                        alt=""
+                      />
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div
+                      class="w-slider rounded-4 py-3 border d-flex flex-column justify-content-center align-items-center"
+                    >
+                      <img
+                        class="w-fit"
+                        src="images/dashbord/account-3.svg"
+                        alt=""
+                      />
+                      <p>اکانت ادوبی</p>
+                    </div>
+                    <div class="d-flex justify-content-center">
+                      <img
+                        class="flash-slider w-fit"
+                        src="images/dashbord/flesh-slider.svg"
+                        alt=""
+                      />
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div
+                      class="w-slider rounded-4 py-3 border d-flex flex-column justify-content-center align-items-center"
+                    >
+                      <img
+                        class="w-fit"
+                        src="images/dashbord/account-4.svg"
+                        alt=""
+                      />
+                      <p>اکانت ادوبی</p>
+                    </div>
+                    <div class="d-flex justify-content-center">
+                      <img
+                        class="flash-slider w-fit"
+                        src="images/dashbord/flesh-slider.svg"
+                        alt=""
+                      />
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div
+                      class="w-slider rounded-4 py-3 border d-flex flex-column justify-content-center align-items-center"
+                    >
+                      <img
+                        class="w-fit"
+                        src="images/dashbord/account-5.svg"
+                        alt=""
+                      />
+                      <p>اکانت ادوبی</p>
+                    </div>
+                    <div class="d-flex justify-content-center">
+                      <img
+                        class="flash-slider w-fit"
+                        src="images/dashbord/flesh-slider.svg"
+                        alt=""
+                      />
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div
+                      class="w-slider rounded-4 py-3 border d-flex flex-column justify-content-center align-items-center"
+                    >
+                      <img
+                        class="w-fit"
+                        src="images/dashbord/account-6.svg"
+                        alt=""
+                      />
+                      <p>اکانت ادوبی</p>
+                    </div>
+                    <div class="d-flex justify-content-center">
+                      <img
+                        class="flash-slider w-fit"
+                        src="images/dashbord/flesh-slider.svg"
+                        alt=""
+                      />
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div
+                      class="w-slider rounded-4 py-3 border d-flex flex-column justify-content-center align-items-center"
+                    >
+                      <img
+                        class="w-fit"
+                        src="images/dashbord/account-7.svg"
+                        alt=""
+                      />
+                      <p>اکانت ادوبی</p>
+                    </div>
+                    <div class="d-flex justify-content-center">
+                      <img
+                        class="flash-slider w-fit"
+                        src="images/dashbord/flesh-slider.svg"
+                        alt=""
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- blog-swiper-sh -2 -->
+      <section class="blog_home">
+        <div class="container">
+          <div class="row justify-content-between">
+            <div class="col-auto">
+              <h2 class="container mb-4 account">انواع اکانت و سرویس خارجی</h2>
+            </div>
+            <div class="col-auto d-block">
+              <div class="d-flex align-items-center">
+                <div class="nav_btns_slides">
+                  <button class="swiper-button-nextn">
+                    <svg
+                      width="32"
+                      height="33"
+                      viewBox="0 0 32 33"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M26.6666 16.5L27.6094 15.5572L28.5522 16.5L27.6094 17.4428L26.6666 16.5ZM6.66663 17.8333C5.93025 17.8333 5.33329 17.2364 5.33329 16.5C5.33329 15.7636 5.93025 15.1667 6.66663 15.1667V17.8333ZM19.6094 7.55719L27.6094 15.5572L25.7238 17.4428L17.7238 9.44281L19.6094 7.55719ZM27.6094 17.4428L19.6094 25.4428L17.7238 23.5572L25.7238 15.5572L27.6094 17.4428ZM26.6666 17.8333H6.66663V15.1667H26.6666V17.8333Z"
+                        fill="#33363F"
+                      />
+                    </svg>
+                  </button>
+                  <button class="swiper-button-prevn">
+                    <svg
+                      width="33"
+                      height="33"
+                      viewBox="0 0 33 33"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M5.5 16.5L4.52773 15.5277L3.55546 16.5L4.52773 17.4723L5.5 16.5ZM26.125 17.875C26.8844 17.875 27.5 17.2594 27.5 16.5C27.5 15.7406 26.8844 15.125 26.125 15.125V17.875ZM12.7777 7.27773L4.52773 15.5277L6.47227 17.4723L14.7223 9.22227L12.7777 7.27773ZM4.52773 17.4723L12.7777 25.7223L14.7223 23.7777L6.47227 15.5277L4.52773 17.4723ZM5.5 17.875H26.125V15.125H5.5V17.875Z"
+                        fill="#33363F"
+                      />
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="sec_slide_blog_home">
+          <div class="container">
+            <div class="container_slider">
+              <div class="swiper swiper_blog_homee">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <div
+                      class="w-slider rounded-4 border d-flex flex-column justify-content-center align-items-center"
+                    >
+                      <img
+                        class="w-fit"
+                        src="images/dashbord/buy-1.svg"
+                        alt=""
+                      />
+                      <div class="text-center negative">
+                        <p class="fw-light mb-0">
+                          <span class="fw-lighter">نتورک:</span>آمریکا
+                        </p>
+                        <p>گیفت کارت پلی استیشن</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div
+                      class="w-slider rounded-4 border d-flex flex-column justify-content-center align-items-center"
+                    >
+                      <img
+                        class="w-fit"
+                        src="images/dashbord/buy-2.svg"
+                        alt=""
+                      />
+                      <div class="text-center negative">
+                        <p class="fw-light mb-0">
+                          <span class="fw-lighter">نتورک:</span>آمریکا
+                        </p>
+                        <p>گیفت کارت پلی استیشن</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div
+                      class="w-slider rounded-4 border d-flex flex-column justify-content-center align-items-center"
+                    >
+                      <img
+                        class="w-fit"
+                        src="images/dashbord/buy-3.svg"
+                        alt=""
+                      />
+                      <div class="text-center negative">
+                        <p class="fw-light mb-0">
+                          <span class="fw-lighter">نتورک:</span>آمریکا
+                        </p>
+                        <p>گیفت کارت پلی استیشن</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div
+                      class="w-slider rounded-4 border d-flex flex-column justify-content-center align-items-center"
+                    >
+                      <img
+                        class="w-fit"
+                        src="images/dashbord/buy-4.svg"
+                        alt=""
+                      />
+                      <div class="text-center negative">
+                        <p class="fw-light mb-0">
+                          <span class="fw-lighter">نتورک:</span>آمریکا
+                        </p>
+                        <p>گیفت کارت پلی استیشن</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div
+                      class="w-slider rounded-4 border d-flex flex-column justify-content-center align-items-center"
+                    >
+                      <img
+                        class="w-fit"
+                        src="images/dashbord/buy-1.svg"
+                        alt=""
+                      />
+                      <div class="text-center negative">
+                        <p class="fw-light mb-0">
+                          <span class="fw-lighter">نتورک:</span>آمریکا
+                        </p>
+                        <p>گیفت کارت پلی استیشن</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div
+                      class="w-slider rounded-4 border d-flex flex-column justify-content-center align-items-center"
+                    >
+                      <img
+                        class="w-fit"
+                        src="images/dashbord/buy-2.svg"
+                        alt=""
+                      />
+                      <div class="text-center negative">
+                        <p class="fw-light mb-0">
+                          <span class="fw-lighter">نتورک:</span>آمریکا
+                        </p>
+                        <p>گیفت کارت پلی استیشن</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div
+                      class="w-slider rounded-4 border d-flex flex-column justify-content-center align-items-center"
+                    >
+                      <img
+                        class="w-fit"
+                        src="images/dashbord/buy-3.svg"
+                        alt=""
+                      />
+                      <div class="text-center negative">
+                        <p class="fw-light mb-0">
+                          <span class="fw-lighter">نتورک:</span>آمریکا
+                        </p>
+                        <p>گیفت کارت پلی استیشن</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- table -->
+       <div class="d-flex flex-row  justify-content-between align-items-center container">
+        <h2 class="account mb-0">آخرین سفارش ها</h2>
+        <a href="" class="btn btn-order  rounded-3 text-white ">همه سفارش ها</a>
+       </div>
+      <div class="table-responsive container">
+        <table class="table c_tbl-1 container">
+          <thead>
+            <tr>
+              <th>شماره سفارش</th>
+              <th class="text-center">نوع درخواست</th>
+              <th class="text-center">مبلغ سفارش</th>
+              <th class="text-center">نوع سفارش</th>
+              <th class="text-center">تاریخ پرداخت</th>
+              <th class="text-center">وضعیت سفارش</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                <p class="tbl_num-1">
+                  3408973
+                  <span><img src="images/dashbord/order.svg" alt="" /></span>
+                </p>
+              </td>
+              <td class="text-center">
+                <a href="#" class="tit_tbl_ticket-1"
+                  >پرداخت در کلیه سایت های بین المللی</a
+                >
+              </td>
+              <td class="text-center">
+                <div class="bage_stat-1 pending-1">64,617,600 ریال</div>
+              </td>
+              <td class="text-center">
+                <p class="text_mute-1">پرداخت در سایت های خارجی</p>
+              </td>
+              <td>
+                <p class="cat_tbl_ticket-1">۱۰ تیر ۱۴۰۳ ساعت ۲۰:۵۸</p>
+              </td>
+              <td class="text-center">
+                <button class="state btn rounded-4">انجام شده</button>
+              </td>
+            </tr>
+            <tr>
+              <td class="text-center">
+                <p class="tbl_num-1">
+                  3408973
+                  <span><img src="images/dashbord/order.svg" alt="" /></span>
+                </p>
+              </td>
+              <td class="text-center">
+                <a href="#" class="tit_tbl_ticket-1"
+                  >پرداخت در کلیه سایت های بین المللی</a
+                >
+              </td>
+              <td class="text-center">
+                <div class="bage_stat-1 answered">64,617,600 ریال</div>
+              </td>
+              <td class="text-center">
+                <p class="text_mute-1">پرداخت در سایت های خارجی</p>
+              </td>
+              <td>
+                <p class="cat_tbl_ticket-1">۱۰ تیر ۱۴۰۳ ساعت ۲۰:۵۸</p>
+              </td>
+              <td class="text-center">
+                <button class="state btn rounded-4">انجام شده</button>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p class="tbl_num-1">
+                  3408973
+                  <span><img src="images/dashbord/order.svg" alt="" /></span>
+                </p>
+              </td>
+              <td class="text-center">
+                <a href="#" class="tit_tbl_ticket-1"
+                  >پرداخت در کلیه سایت های بین المللی</a
+                >
+              </td>
+              <td class="text-center">
+                <div class="bage_stat-1 closed">64,617,600 ریال</div>
+              </td>
+              <td class="text-center">
+                <p class="text_mute-1">پرداخت در سایت های خارجی</p>
+              </td>
+              <td>
+                <p class="cat_tbl_ticket-1">۱۰ تیر ۱۴۰۳ ساعت ۲۰:۵۸</p>
+              </td>
+              <td class="text-center">
+                <button class="state btn rounded-4">انجام شده</button>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </main>
+    <div class="menu_foot_mob d-flex d-md-none">
+      <ul>
+        <li class="active">
+          <a href="#"
+            ><img
+              src="images/menu/home.svg"
+              alt="home"
+              width="20"
+              height="20"
+              class="img-fluid"
+            />
+            <span class="nav-text">داشبورد</span></a
+          >
+        </li>
+        <li>
+          <a href="#"
+            ><img
+              src="images/menu/wallet.svg"
+              alt="wallet"
+              width="20"
+              height="20"
+              class="img-fluid"
+            />
+            <span class="nav-text">کیف پول من</span></a
+          >
+        </li>
+        <li>
+          <a href="#"
+            ><img
+              src="images/menu/market.svg"
+              alt="market"
+              width="20"
+              height="20"
+              class="img-fluid"
+            />
+            <span class="nav-text">بازار</span></a
+          >
+        </li>
+        <li>
+          <a href="#"
+            ><img
+              src="images/menu/premium.svg"
+              alt="premium"
+              width="20"
+              height="20"
+              class="img-fluid"
+            />
+            <span class="nav-text">خدمات ویژه</span></a
+          >
+        </li>
+      </ul>
+    </div>
+
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/select2.min.js"></script>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/apexcharts.js"></script>
+    <script src="js/chart.js"></script>
+    <script src="js/charts.js"></script>
+    <script src="js/scripts.js"></script>
+    <script src="js/dashbord.js"></script>
+
+ 
+  </body>
+</html>
